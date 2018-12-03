@@ -1,0 +1,50 @@
+.newsletter{
+    padding: 15% 10%;
+}
+
+.form{
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    display: block;
+    height: 30px;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    border-bottom: 2px solid lightgray;
+    background-color: inherit;
+    outline: none;
+    transition: all 0.1s;
+}
+input:focus{
+    border-bottom-color: lightgreen;
+}
+
+button{
+    display: block;
+    width: 130px;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    background: none;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    font-weight: 300;
+    border: 2px solid rgba(133, 11, 204, 0.5);
+    border-radius: 360px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+button:hover{
+    background-color: rgba(133, 11, 204, 1);
+    color: var(--white);
+}

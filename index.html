@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>airPrint</title>
+    <link rel="icon" href="assets/logo.ico" type="image/icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300" rel="stylesheet">
+    <script src="assets/jquery.min_3.3.1.js"></script>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/navbar.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/sections.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/form.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/colors.css" />
+</head>
+<body>
+    <nav class="main">
+        <div class="indic"></div>
+        <a href="#home" class="nav-item main-item selected">Home</a>
+        <a href="#about" class="nav-item">About</a>
+        <a href="#product" class="nav-item">Product</a>
+        <a href="#newsletter" class="nav-item">Newsletter</a>
+    </nav>
+    
+    <section class="home">
+        <img src="assets/symoblic product.svg" alt="" class="illustration">
+        <div class="container">
+            <h1 class="heading">Introducing <span style="font-weight: 300;">airPrint</span></h1>
+            <p class="big">Protecting the environment and your pocket</p>
+        </div>
+    </section>
+
+    <div class="video">
+        <div class="play" onclick="playVideo()">
+            <p>Play Video</p>
+        </div>
+        <video controls preload="auto">
+            <source src="assets/video.mp4">
+        </video>
+    </div>
+
+    <section class="about">
+        <h1>About the Project</h1>
+        <p>Since 15 decades the human race has relied on fossil fuels and till present we are directly or indirectly always using fossil fuels. These fuels have come a long way leading to urbanization and development of human race but at a price. Pollution. Soot being a major component. These small particles of soot add up and lead to deaths in big numbers. Premature deaths, asthma, and several other diseases are caused by high levels of pollution.</p>
+    </section>
+
+    <section class="product">
+        <h1 class="heading">The Product</h1>
+        <div class="container2">
+            <img src="assets/product-01.svg" alt="" class="illustration2">
+            <p>A revolutionary device which makes use of your particulate-matter-emitting vehicle by grabbing the black carbon by it’s high tech filter and using that black carbon to make high quality ink. <br><br> The device is attached to the tailpipe of the vehicle. The exhaust will pass through the device and the carbon emmission is collected and turned into printer ink. The device filter works with HEPA technology and  Ultra Compressible  Graphene  Aerogel Technology.</p>
+        </section>
+        <p class='next'>The filter contains graphene which increases the absorption capacity of the ink generator to <b>give you</b> the ink you <b>deserve</b>, the ink you <b>desire</b> and <b>dream</b>.</p>
+
+        <p class="next">The device comes with an ultrasonic sensor along with pollution trackers. This helps drivers track nearby traffic and drive optimally. AI companies can also make use of this data which will allow the AI systems to monitor the traffic and the rush hours and help the government improve road connectivity.</p>
+
+        <div class="container3">
+            <h1 class="colored">Variants</h1>
+            <p>We provide two variants of airPrint: </p><br>
+            <ul type='none'>
+                <li><b>Soot filter:</b> The basic filter which comes with the base model. It will simply <b>take CO<sub>2</sub></b> and <b>convert it to ink.</b></li><br>
+                <li><b>Soot filter + <span style="color:#8cc63f">Microfilter</span>:</b> This will also filter out oxides of <b>NO<sub>x</sub></b> and <b>SO<sub>2</sub></b>. It is not included with the base model.</li>
+            </ul>
+        </div>
+        </div>
+
+    <section class="newsletter">
+        <h1>Subscribe to our newsletter to stay updated!</h1>
+        <div class="form">
+            <input type="email" name="email_id" placeholder="Email-ID"/>
+            <button onclick="formGo()">Submit</button>
+        </div>
+    </section>
+
+    <footer>
+        Made with &nbsp;<span>&hearts;</span>&nbsp; by &nbsp;<span>NODE</span>
+    </footer>
+
+    <script src="js/functions.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
